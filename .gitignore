@@ -1,19 +1,41 @@
-plugins {
-    id 'java-library'
-}
+# Compiled class file
+*.class
 
-repositories {
-    mavenCentral()
-}
+# Log file
+*.log
 
-dependencies {
-    testImplementation(
-            'com.codeborne:selenide:6.2.1',
-            'org.junit.jupiter:junit-jupiter:5.8.2'
-    )
-    testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.8.2')
-}
+# BlueJ files
+*.ctxt
 
-test {
-    useJUnitPlatform()
-}
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.iml
+
+# Project gen files
+.idea
+.allure/
+.gradle/
+allure-results/
+gradle/
+build/
+bin/
+out/
+logs/
+target/
+.classpath
+.project
+.settings/org.eclipse.buildship.core.prefs
+.vscode
+/gradlew
+/gradlew.bat
+.todo
+local.properties
